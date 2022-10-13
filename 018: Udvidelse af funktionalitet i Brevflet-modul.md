@@ -4,8 +4,11 @@
 I dag er det muligt at aktivere et Brevflet-modul, der på baggrund af tegnet geometri, fremsøger ejere på de berørte adresser. Dette gøres ved at aktivere et eksternt program, EjdExplorer fra LIFA.
 I det daglige arbejde er det dog mange vigtigt at kende ejere på matrikler, som ikke nødvendigvis indeholder en adresse. Der forslås derfor at udvide funktionalitet med matrikelgeomtri.
 
+
 ## 2. Foreslået løsning
 Når man aktiverer Brevflet-modul, får man mulighed for at vælge om søgningen skal foregå på adresser eller matrikler. Administratoren skulle gerne have mulighed for at sætte en af dem som default. Matriklerne udvælges med en simpel CONTAINS-funktion.
+Suplerende ønske: Matrikler vælges via valgt geometri fx lokalplan, ejendom e.t.c. 
+
 
 ## 3. Problemer med bagudkompatibilitet
 
@@ -23,3 +26,4 @@ Minimalt. Udvægelse er rimelig intuitiv og følger samme principper som f.eks. 
 
 ## 9. Tilsagn/tilkendegivelse
 Kerteminde ++
+Nyborg ++
